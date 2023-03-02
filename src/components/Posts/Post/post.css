@@ -1,0 +1,31 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    height: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: white;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.title{
+    padding: 0 16px;
+}
+.cardActions{
+  padding: 0 16px 8px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.cardAction{
+    display: block !important;
+    text-align: initial !important;
+}

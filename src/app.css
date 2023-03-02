@@ -1,0 +1,62 @@
+.app{
+    min-height: 100vh;
+    background-color: #f7f8fc;
+    padding-bottom: 30px;
+    position: relative;
+}
+#dark .app{    
+    background-color: #233343 !important;
+}
+#dark{
+    background: #233343;
+}
+#dark .appBar{
+    background: #b8cbdf;
+    color: aliceblue !important;
+}
+.appBar #responsive-navbar-nav a{
+    color: rgb(71, 71, 71);
+}
+.appBar #responsive-navbar-nav a:hover{
+    color: rgb(23, 19, 19);
+}
+#dark .paper{
+    background: #b8cbdf;
+}
+#dark .card{
+    background: #b8cbdf;
+}
+#dark .appBarSearch{
+    background: #b8cbdf;
+}
+#dark .adminPageTitle{
+    color: aliceblue;
+}
+#dark .authPage{
+    background: #7d99b7;
+}
+#dark .postDetails{
+    background: #7d99b7;
+}
+#dark .loadingPaper{
+    background: #7d99b7;
+}
+#dark .settings{
+    color: aliceblue;
+}
+.homeTitle{
+    color: #000;
+}
+#dark .homeTitle{
+    color: aliceblue;
+}
+#dark .collectionTableTitle{
+    color: aliceblue;
+}
+#dark .noPosts{
+    color: aliceblue;
+}
+#dark .login a{
+    color: aliceblue;
+}
+
