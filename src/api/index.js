@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = axios.create({ baseURL: "https://nodirbekserver.herokuapp.com" });
+const API = axios.create({ baseURL: "https://course-work-itransition.onrender.com/" });
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {
     req.headers.authorization = `Bearer ${JSON.parse(localStorage.getItem("profile")).token}`;
